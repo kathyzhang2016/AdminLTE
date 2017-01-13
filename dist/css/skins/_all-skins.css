@@ -1768,3 +1768,196 @@
     border-left: 1px solid #d2d6de;
   }
 }
+/*
+ * Skin: add for testing purpose
+ * -----------
+ */
+/* skin-test navbar */
+body {
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+}
+.skin-test .navbar-nav > li > a {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #6b7a6b;
+  padding: 0 30px;
+  line-height: 64px;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #F2F2F2;
+}
+.skin-test .bg_header {
+  opacity: .97;
+  background-color: #fafbfa;
+  /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);* 只有页面滚动的时候才需要加这个css 属性*/
+}
+.skin-test .bg_header .header_logo {
+  width: auto;
+  height: 64px;
+  line-height: 64px;
+  padding: 0;
+  margin: 0 30px 0 20px;
+}
+.skin-test .bg_header .header_logo a {
+  display: block;
+  padding: 15px 0;
+  height: 34px;
+  line-height: 34px;
+}
+.skin-test .sub_header #rev_slider_1_1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 750px;
+  position: relative;
+  z-index: 0;
+}
+.skin-test .sub_header #rev_slider_1_1 ul {
+  visibility: visible;
+  display: block;
+  overflow: hidden;
+  width: 1670px;
+  height: 100%;
+  max-height: none;
+  left: 0px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 20;
+  visibility: inherit;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_bg {
+  height: 750px;
+  width: 100%;
+  background: url('../../../src/libs/img/herbs/home_herbal_slider_bg.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo1 {
+  position: absolute;
+  left: 325px;
+  top: 155px;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo span {
+  white-space: nowrap;
+  visibility: inherit;
+  transition: none;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  padding-right: 8px;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo1 > span {
+  z-index: 5;
+  line-height: 26px;
+  letter-spacing: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  color: #6b7a6b;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo2 {
+  position: absolute;
+  left: 325px;
+  top: 210px;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo2 > span {
+  z-index: 6;
+  line-height: 60px;
+  display: block;
+  letter-spacing: 1px;
+  font-family: Caudex;
+  font-size: 54px;
+  color: #1c4e2a;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo3 {
+  position: absolute;
+  left: 325px;
+  top: 430px;
+  z-index: 7;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogo3 > a {
+  background-color: #fafbfa;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1c4e2a;
+  padding: 12px 25px;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogoPic {
+  position: absolute;
+  left: 718px;
+  top: 70px;
+  z-index: 8;
+}
+.skin-test .sub_header #rev_slider_1_1 ul li .slider_slogoPic img {
+  width: 855px;
+  height: 683px;
+}
+.skin-test .content-wrapper .content .section_wrapper {
+  margin: 0 auto;
+  width: 1102px;
+}
+.skin-test .content-wrapper .content .section_wrapper .row h5 {
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  color: #6b7a6b;
+}
+.skin-test .content-wrapper .content .section_wrapper .row h4 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #1c4e2a;
+}
+.skin-test .content-wrapper .content .section_wrapper .row h2 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #1c4e2a;
+}
+.skin-test .content-wrapper .content .section_wrapper .row p {
+  color: #6b7a6b;
+  margin: 0 0 15px;
+}
+.skin-test .content-wrapper .content .section_wrapper .row h2,
+.skin-test .content-wrapper .content .section_wrapper .row h3,
+.skin-test .content-wrapper .content .section_wrapper .row h4,
+.skin-test .content-wrapper .content .section_wrapper .row h5 {
+  margin-bottom: 15px;
+  font-family: 'Caudex';
+}
+.skin-test .content-wrapper .content .section_wrapper .row .box-border {
+  border: 2px solid transparent;
+  border-color: #e2e7e2;
+  height: 423px;
+}
+.skin-test .content-wrapper .content .section_wrapper .row .box-no-bgBorder {
+  background: none;
+  border-width: 0;
+}
+.skin-test .content-wrapper .content .section_wrapper .row .box .box-body .img_wrapper {
+  padding: 50px 25px;
+}
+.skin-test .content-wrapper .content .section_wrapper .row .box .box-body .scale-with-grid {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+.skin-test .content-wrapper .content .section_wrapper .row .carousel-inner {
+  width: 50%;
+  margin: 0 auto;
+}
+.skin-test .content-wrapper .content .section_wrapper .row .carousel-inner > .item {
+  width: 440px;
+}
