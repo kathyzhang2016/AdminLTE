@@ -1,0 +1,12 @@
+/*
+ * Skin: add for testing purpose
+ * -----------
+ */
+.fullWH {
+  width: 100%;
+  height: 100%;
+}
+/* skin-purple navbar */
+.skin-herbs-purple #main_header #topBar {
+  background-color: #605ca8;
+}

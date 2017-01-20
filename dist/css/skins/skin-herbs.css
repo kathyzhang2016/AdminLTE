@@ -1,0 +1,361 @@
+/*
+ * Skin: add for testing purpose
+ * -----------
+ */
+.fullWH {
+  width: 100%;
+  height: 100%;
+}
+/* skin-test navbar */
+body {
+  font-family: "Lato", Arial, Tahoma, sans-serif;
+}
+.skin-herbs a {
+  text-decoration: none;
+}
+.skin-herbs #main_header {
+  position: relative;
+}
+.skin-herbs #main_header #topBar {
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  background-color: #fafbfa;
+  opacity: .97;
+}
+.skin-herbs #main_header #topBar .topBar_left {
+  position: relative;
+  float: left;
+  width: 1573px;
+  /*鼠标移动到导航菜单时, 添加背景颜色*/
+}
+.skin-herbs #main_header #topBar .topBar_left .logo {
+  margin: 0 30px 0 20px;
+  float: left;
+}
+.skin-herbs #main_header #topBar .topBar_left #logo {
+  height: 34px;
+  line-height: 34px;
+  padding: 15px 0;
+  display: block;
+}
+.skin-herbs #main_header #topBar .topBar_left .menu_wrapper {
+  float: right;
+  margin-right: -10px;
+}
+.skin-herbs #main_header #topBar .topBar_left .menu_wrapper .menu {
+  list-style: none;
+}
+.skin-herbs #main_header #topBar .topBar_left .menu_wrapper .menu li {
+  float: left;
+  margin: 0;
+}
+.skin-herbs #main_header #topBar .topBar_left .menu_wrapper .menu > li > a {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  outline: 0;
+  display: block;
+}
+.skin-herbs #main_header #topBar .topBar_left .menu_wrapper .menu > li > a > span {
+  line-height: 64px;
+  display: block;
+  padding: 0px 30px;
+  color: #6b7a6b;
+}
+.skin-herbs #main_header #topBar .topBar_left .menu > li > a:hover,
+.skin-herbs #main_header #topBar .topBar_left .topBar_left .menu > li > a.selected {
+  background: #e8ede6;
+}
+.skin-herbs #main_header #topBar .topBar_right {
+  height: 64px;
+  background-color: transparent;
+  position: relative;
+  float: right;
+}
+.skin-herbs #main_header #topBar .topBar_right .topBar_right_wrapper {
+  top: 0;
+}
+.skin-herbs #main_header #topBar .topBar_right .topBar_right_wrapper #header_cart {
+  margin-right: 0;
+  top: 0px;
+  border-color: #F2F2F2;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  color: #333333;
+  padding: 0 25px;
+  line-height: 64px;
+  height: 64px;
+  position: relative;
+  display: block;
+  font-size: 20px;
+}
+.skin-herbs #main_header #topBar .topBar_right .topBar_right_wrapper span {
+  background-color: #cb9734;
+  position: relative;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  line-height: 17px;
+  font-size: 11px;
+  right: 9px;
+  top: -10px;
+  text-align: center;
+  color: #fff;
+  margin-right: -9px;
+}
+.skin-herbs .sub_header {
+  background-color: #ffffff;
+}
+.skin-herbs .sub_header #rev_slider_1_1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 750px;
+  position: relative;
+  z-index: 0;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  max-height: none;
+  left: 0px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 20;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0);
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_bg {
+  height: 750px;
+  width: 100%;
+  background: url('../../../src/libs/img/herbs/home_herbal_slider_bg.png') center center no-repeat;
+  background-size: 100% 100%;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo1 {
+  position: absolute;
+  left: 325px;
+  top: 155px;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo1 > span {
+  line-height: 26px;
+  letter-spacing: 4px;
+  font-family: Lato;
+  font-size: 16px;
+  color: #6b7a6b;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo2 {
+  position: absolute;
+  left: 325px;
+  top: 210px;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo2 > span {
+  line-height: 60px;
+  letter-spacing: 1px;
+  font-family: Caudex;
+  font-size: 54px;
+  color: #1c4e2a;
+  display: block;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo3 {
+  position: absolute;
+  left: 325px;
+  top: 430px;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo3 > a {
+  background-color: #fafbfa;
+  font-family: 'Lato', Arial;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1c4e2a;
+  padding: 12px 25px;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogo3 > a > span {
+  padding-right: 8px;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogoPic {
+  position: absolute;
+  left: 325px;
+  top: 70px;
+  left: 718px;
+}
+.skin-herbs .sub_header #rev_slider_1_1 ul li .slider_slogoPic img {
+  width: 855px;
+  height: 683px;
+}
+.skin-herbs .content .section:nth-child(2) {
+  padding-top: 0px;
+  padding-bottom: 70px;
+}
+.skin-herbs .content .section:nth-child(3) {
+  padding-top: 110px;
+  padding-bottom: 120px;
+  background-color: #f3f5f2;
+}
+.skin-herbs .content .section:last-child {
+  padding-top: 0px;
+  padding-bottom: 120px;
+  background-color: #e8ede6;
+}
+.skin-herbs .content .section .section_wrapper {
+  margin: 0 auto;
+  width: 1102px;
+}
+.skin-herbs .content .section .section_wrapper .row h5 {
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4px;
+  color: #6b7a6b;
+}
+.skin-herbs .content .section .section_wrapper .row h4 {
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #1c4e2a;
+}
+.skin-herbs .content .section .section_wrapper .row h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 1px;
+  color: #1c4e2a;
+}
+.skin-herbs .content .section .section_wrapper .row h3 {
+  font-size: 34px;
+  line-height: 42px;
+  letter-spacing: 0px;
+  color: #1c4e2a;
+}
+.skin-herbs .content .section .section_wrapper .row p {
+  color: #6b7a6b;
+  margin: 0 0 15px;
+}
+.skin-herbs .content .section .section_wrapper .row h2,
+.skin-herbs .content .section .section_wrapper .row h3,
+.skin-herbs .content .section .section_wrapper .row h4,
+.skin-herbs .content .section .section_wrapper .row h5 {
+  margin-bottom: 15px;
+  font-family: 'Caudex';
+  font-weight: 400;
+}
+.skin-herbs .content .section .section_wrapper .row .box-border {
+  border: 2px solid transparent;
+  border-color: #e2e7e2;
+  height: 423px;
+}
+.skin-herbs .content .section .section_wrapper .row .box-no-bgBorder {
+  background: none;
+  border-width: 0;
+}
+.skin-herbs .content .section .section_wrapper .row .box .box-body .img_wrapper {
+  padding: 50px 25px;
+}
+.skin-herbs .content .section .section_wrapper .row .box .box-body .scale-with-grid {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+.skin-herbs .content .section .section_wrapper .row .carousel-inner {
+  width: 50%;
+  margin: 0 auto;
+}
+.skin-herbs .content .section .section_wrapper .row .carousel-inner > .item {
+  width: 440px;
+}
+.skin-herbs .content .section .section_wrapper .row .slider_prev {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  background-color: #e8ede6;
+  color: #1c4e2a;
+}
+.skin-herbs .content .section .section_wrapper .row .slider_prev > span {
+  display: block;
+  padding: 21px 23px;
+}
+.skin-herbs .content .section .section_wrapper .row .slider_next {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  background-color: #e8ede6;
+  color: #1c4e2a;
+}
+.skin-herbs .content .section .section_wrapper .row .slider_next > span {
+  display: block;
+  padding: 21px 23px;
+}
+.skin-herbs .content .section .section_wrapper a.button_js {
+  padding: 12px 25px;
+}
+.skin-herbs .content .section .section_wrapper a.button_js > span {
+  padding-right: 8px;
+}
+.skin-herbs .content .section .section_wrapper a.button_js.button_readMore {
+  background-color: #fafbfa;
+  color: #1c4e2a;
+}
+.skin-herbs .content .section .section_wrapper a.button_js.button_order {
+  background-color: #cb9734;
+  color: #fff;
+}
+.skin-herbs .footer {
+  background-color: #e8ede6;
+}
+.skin-herbs .footer .container {
+  padding: 80px 0;
+}
+.skin-herbs .footer .container aside p {
+  margin-right: 10%;
+  font-size: 11px;
+  color: #6b7a6b;
+}
+.skin-herbs .footer .container aside > div a.icon_bar {
+  border-width: 0;
+  background-color: #f0f0f0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  display: inline-block;
+  text-align: center;
+  color: #444;
+  margin: 0 2px 2px 0;
+}
+.skin-herbs .footer .container aside > div a.icon_bar:hover {
+  color: #cb9734;
+}
+.skin-herbs .footer .container aside > div a.icon_bar span {
+  display: block;
+  width: 43px;
+  height: 43px;
+  line-height: 43px;
+  font-size: 15px;
+}
+.skin-herbs .footer .container aside > div > ul {
+  list-style: none;
+}
+.skin-herbs .footer .container aside > div > ul li a {
+  color: #6b7a6b;
+}
+.skin-herbs .footer .container aside > div > ul li a:hover {
+  color: #cb9734;
+}
+.skin-herbs .footer .footer_copy {
+  background-color: #e1e7de;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.skin-herbs .footer .footer_copy .footer_wrapper {
+  margin: 0 auto;
+  width: 1102px;
+}
+.skin-herbs .footer .footer_copy .footer_wrapper .column {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
