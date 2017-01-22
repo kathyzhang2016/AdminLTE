@@ -42,8 +42,8 @@ module.exports = function (grunt) {
                     "dist/css/skins/skin-purple-light.css": "build/less/skins/skin-purple-light.less",
                     /*add a new skin less*/
                     "dist/css/skins/skin-test.css": "build/less/skins/skin-test.less",
-                    "dist/css/skins/skin-herbs.css": 'build/bootstrap-less/herbs_less/skin-herbs.less',
-                    "dist/css/skins/skin-herbs-purple.css": 'build/bootstrap-less/herbs_less/skin-herbs-purple.less',
+                    "dist/css/skins/skin-herbs.css": 'build/herbs_less/skin-herbs.less',
+                    "dist/css/skins/skin-herbs-purple.css": 'build/herbs_less/skin-herbs-purple.less',
                     "dist/css/skins/_all-skins.css": "build/less/skins/_all-skins.less"
                 }
             },
