@@ -44,6 +44,8 @@ module.exports = function (grunt) {
                     "dist/css/skins/skin-test.css": "build/less/skins/skin-test.less",
                     "dist/css/skins/skin-herbs.css": 'build/herbs_less/skin-herbs.less',
                     "dist/css/skins/skin-herbs-purple.css": 'build/herbs_less/skin-herbs-purple.less',
+                    /*add new skin for smarthome page*/
+                    "dist/css/skins/skin-home.css": 'build/home_less/skin-home.less',
                     "dist/css/skins/_all-skins.css": "build/less/skins/_all-skins.less"
                 }
             },

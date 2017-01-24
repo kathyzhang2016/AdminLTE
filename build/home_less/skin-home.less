@@ -1,0 +1,305 @@
+/*
+ * Skin: add for smarthome page
+ * -----------
+ */
+@import './mixins.less';
+@import './variables.less';
+
+.skin-home{
+  #topBar{//topBar
+    position: fixed;
+    z-index: 30;
+    background-color: @topBar-bg;
+    width: 100%;
+    height: auto;
+    .container {
+      width: 98%;
+      margin: 0 auto;
+
+      #topBar_left {
+        position: relative;
+        float: left;
+        width: 100%;
+
+        .logo {//topBar 左侧的logo
+          float: left;
+          margin: 0 30px 0 20px;
+
+          a#logo {
+            height: 60px;
+            line-height: 60px;
+            padding: 15px 0;
+
+            img.scale-with-grid {
+              max-width: 100%;
+              max-height: 100%;
+              height: auto;
+
+            }
+          }
+
+        }
+
+        .menu_wrapper {//topBar 右侧的导航栏menu
+          float: right;
+          margin-right: -10px;
+          .menu {
+            list-style: none;
+            > li {
+              float: left;
+              margin: 0;
+
+              > a {
+                font-family: "Ubuntu",Arial,Tahoma,sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 4px;
+                text-decoration: none;
+                outline: 0;
+                display: block;
+                color: @topBar-menu;
+                &:hover{
+                  color: @topBar-menu-hover;
+                }
+
+                > span {
+                  line-height: 64px;
+                  display: block;
+                  padding: 0 20px;
+
+                }
+
+              }
+            }
+
+          }
+
+        }
+      }
+
+    }
+
+  }
+
+  //subHeader
+  .sub_header{
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    #rev_slider_1_1{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1312px;
+      .slider_bg{
+        width: 100%;
+        height: 100%;
+        background: url('@{sectionBgPath}/home_smarthome_slider_bg.jpg') center center;
+        position: absolute;
+      }
+
+      span{
+        display: block;
+      }
+
+      .slider_slogo1 {
+        .slider_slogo_style(162px, 252px, 37px, 700, 37px, 1px, @sub-header-slogo-white);
+
+      }
+
+      .slider_slogo2 {
+        .slider_slogo_style(137px,347px,  12px, 400, 19px, 1px, @sub-header-slogo-gray);
+
+      }
+
+      .slider_slogo3{
+        .slider_slogo_style(556px,250px);
+      }
+
+      .slider_slogo4{
+        .slider_slogo_style(1305px,320px);
+
+      }
+
+      .slider_slogo5{
+        .slider_slogo_style(1473px,321px);
+      }
+      
+      .slider_slogo6{
+        .slider_slogo_style(264px,1001px);
+      }
+
+      .slider_slogo7{
+
+        .slider_slogo_style(263px,1026px);
+      }
+
+      .slider_slogo6{
+        .slider_slogo_style(264px,1001px);
+      }
+
+      .slider_slogo8{
+        .slider_slogo_style(1135px,746px);
+      }
+
+      .slider_slogo9{
+        .slider_slogo_style(1157px,995px);
+
+      }
+    }
+  }
+
+  //具体内容的样式
+  #content{
+    width: 100%;
+    .section{
+      &:nth-child(1){//第一个section
+        padding-top: 0px;
+        padding-bottom: 40px;
+        background-color: @section-color-dark-blue;
+      }
+
+      &:nth-child(2){//第二个section
+        padding-top: 90px;
+        padding-bottom: 0;
+        background: url('@{sectionBgPath}/home_smarthome_sectionbg2.png') center top no-repeat;
+      }
+
+      .section_wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        .wrap{
+          width:100%;
+          .row {
+            width: 98%;
+            margin: 0 1% 40px;
+
+            h4 {
+              font-weight: 500;
+              letter-spacing: 3px;
+              font-size: 21px;
+              line-height: 25px;
+              color: @white;
+            }
+
+            .wrap_content h2{
+              color: @white;
+
+            }
+
+            .formatH2;
+
+            h3 {
+              font-weight: 400;
+            }
+
+            h5 {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 23px;
+              letter-spacing: 1px;
+            }
+
+            h2, h4, h5{
+              margin-top: 0;
+              margin-bottom: 15px;
+
+            }
+
+            .themecolor {
+              color: #0f84e7;
+            }
+
+            .image_wrapper {
+              margin-bottom: 15px;
+            }
+
+            .wrap_content {
+              width: 100%;
+              padding: 0 5%;
+            }
+            .col-md-3 {
+              //margin: 0 1% 40px;
+              margin-bottom: 40px;
+              .instructions a {
+                border: 1px solid #9399b8;
+                padding: 50px 0 30px;
+                display: block;
+                text-decoration: none;
+
+                .image_wrapper {
+                  margin-bottom: 30px;
+                }
+
+              }
+            }
+
+            a.button_js {
+              
+              background-color: @button-bg;
+              color: @white;
+              display: inline-block;
+              padding:0;
+              margin-bottom: 15px;
+              cursor: pointer;
+              margin-right: 7px;
+              text-decoration: none;
+
+              &.button_full_width{
+                display: block;
+              }
+              .button_label {
+                padding: 11px 20px;
+                font-size:14px;
+                display: block;
+                &.button_full_width {
+                  display: inline-block;
+                  float: none;
+                }
+              }
+
+
+            }
+
+            //第二个section 品牌介绍下面的数字部分
+            .quick_fact {
+              .number-wrapper {
+                color: #0f84e7;
+                .number {
+                  font-size: 90px;
+                  line-height: 90px;
+                  font-family: Patua One;
+                }
+              }
+              h3.title {
+                font-family: 'Ubuntu';
+                font-style: italic;
+                font-size: 18px;
+                letter-spacing: 2px;
+                line-height: 22px;
+                color: #0d122d;
+              }
+            }
+
+            //第二个section 下面的线
+            hr {
+              background-color: rgba(0, 0, 0, .08);
+              color: rgba(0, 0, 0, .08);
+
+              .no_line {
+                height: 0;
+              }
+
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+
+}

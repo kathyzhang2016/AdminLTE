@@ -46,29 +46,29 @@
           margin-right: -10px;
           .menu {
             list-style: none;
-            li {
+            > li {
               float: left;
               margin: 0;
-            }
-
-            > li > a {
-              font-size: 16px;
-              font-weight: 400;
-              letter-spacing: 1px;
-              text-decoration: none;
-              outline: 0;
-              display: block;
-              > span {
-                line-height: 64px;
+              > a {
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                text-decoration: none;
+                outline: 0;
                 display: block;
-                padding: 0px 30px;
-                color: @light-green;
-              }
+                > span {
+                  line-height: 64px;
+                  display: block;
+                  padding: 0px 30px;
+                  color: @light-green;
+                }
 
-              &:hover, &.selected {
-                background: @menu-hover-bg; /*鼠标移动到导航菜单时, 添加背景颜色*/
+                &:hover, &.selected {
+                  background: @menu-hover-bg; /*鼠标移动到导航菜单时, 添加背景颜色*/
+                }
               }
             }
+
           }
 
         }
@@ -132,7 +132,7 @@
 
       ul {
 
-        .fullWH;
+        &:extend(.fullWH);
         display: block;
         overflow: hidden;
         max-height: none;
@@ -142,7 +142,7 @@
         margin-bottom: 0;
 
         li {
-          .fullWH;
+          &:extend(.fullWH);
 
           overflow: hidden;
           z-index: 20;
@@ -211,7 +211,6 @@
     .section {
       &:nth-child(2) {
         .contentPosition(0, 70px);
-
       }
 
       &:nth-child(3) {
@@ -280,7 +279,7 @@
           }
 
           .carousel-inner {
-            width: 50%;
+            width: 60%;
             margin: 0 auto;
 
             > .item {
