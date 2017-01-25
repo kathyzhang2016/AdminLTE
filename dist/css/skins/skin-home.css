@@ -3,6 +3,18 @@
  * -----------
  */
 /*设置sub-header 各标语的样式*/
+.formatH2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #0d122d;
+}
+.customizeWidth,
+.skin-home #content .section .section_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
 .skin-home #topBar {
   position: fixed;
   z-index: 30;
@@ -113,6 +125,10 @@
   letter-spacing: 0;
   color: #ffffff;
 }
+.skin-home .sub_header #rev_slider_1_1 .slider_slogo3 img {
+  width: 6.12042px;
+  height: 386.461px;
+}
 .skin-home .sub_header #rev_slider_1_1 .slider_slogo4 {
   position: absolute;
   left: 1305px;
@@ -133,6 +149,10 @@
   letter-spacing: 0;
   color: #ffffff;
 }
+.skin-home .sub_header #rev_slider_1_1 .slider_slogo5 img {
+  width: 6.12042px;
+  height: 288.534px;
+}
 .skin-home .sub_header #rev_slider_1_1 .slider_slogo6 {
   position: absolute;
   left: 264px;
@@ -142,6 +162,10 @@
   line-height: 21px;
   letter-spacing: 0;
   color: #ffffff;
+}
+.skin-home .sub_header #rev_slider_1_1 .slider_slogo6 img {
+  width: 287.66px;
+  height: 6.12042px;
 }
 .skin-home .sub_header #rev_slider_1_1 .slider_slogo7 {
   position: absolute;
@@ -173,6 +197,10 @@
   letter-spacing: 0;
   color: #ffffff;
 }
+.skin-home .sub_header #rev_slider_1_1 .slider_slogo8 img {
+  width: 6.12042px;
+  height: 287.66px;
+}
 .skin-home .sub_header #rev_slider_1_1 .slider_slogo9 {
   position: absolute;
   left: 1157px;
@@ -196,10 +224,14 @@
   padding-bottom: 0;
   background: url('../../img/home/home_smarthome_sectionbg2.png') center top no-repeat;
 }
-.skin-home #content .section .section_wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  position: relative;
+.skin-home #content .section:nth-child(3) {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.skin-home #content .section:nth-child(5) {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #0f84e7;
 }
 .skin-home #content .section .section_wrapper .wrap {
   width: 100%;
@@ -207,10 +239,6 @@
 .skin-home #content .section .section_wrapper .wrap .row {
   width: 98%;
   margin: 0 1% 40px;
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 42px;
-  color: #0d122d;
 }
 .skin-home #content .section .section_wrapper .wrap .row h4 {
   font-weight: 500;
@@ -221,6 +249,12 @@
 }
 .skin-home #content .section .section_wrapper .wrap .row .wrap_content h2 {
   color: #ffffff;
+}
+.skin-home #content .section .section_wrapper .wrap .row h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #0d122d;
 }
 .skin-home #content .section .section_wrapper .wrap .row h3 {
   font-weight: 400;
@@ -267,6 +301,7 @@
   margin-bottom: 15px;
   cursor: pointer;
   margin-right: 7px;
+  text-decoration: none;
 }
 .skin-home #content .section .section_wrapper .wrap .row a.button_js.button_full_width {
   display: block;
@@ -279,6 +314,10 @@
 .skin-home #content .section .section_wrapper .wrap .row a.button_js .button_label.button_full_width {
   display: inline-block;
   float: none;
+}
+.skin-home #content .section .section_wrapper .wrap .row a.button_js.button_gray_bg {
+  background-color: #e3e3e3;
+  color: #0d122d;
 }
 .skin-home #content .section .section_wrapper .wrap .row .quick_fact .number-wrapper {
   color: #0f84e7;
@@ -302,4 +341,83 @@
 }
 .skin-home #content .section .section_wrapper .wrap .row hr .no_line {
   height: 0;
+}
+.skin-home #content .section .section_wrapper .wrap .row .faq .question {
+  margin-bottom: 5px;
+  overflow: hidden;
+  position: relative;
+  background: rgba(0, 0, 0, 0.02);
+}
+.skin-home #content .section .section_wrapper .wrap .row .faq .question .title {
+  padding: 20px 40px 20px 80px;
+  font-size: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.skin-home #content .section .section_wrapper .wrap .row .faq .question .title .num {
+  font-weight: 700;
+  position: absolute;
+  left: 27px;
+  top: 20px;
+}
+.skin-home #content .section .section_wrapper .wrap .row .faq .question .title .acc-icon-minus {
+  font-size: 17px;
+  line-height: 17px;
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 21px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.skin-home #content .section .section_wrapper .wrap .row .faq .question .answer {
+  padding: 0 20px 20px 80px;
+  overflow: hidden;
+  display: none;
+}
+.skin-home #footer {
+  background-color: #1c1e33;
+  background: url('../../img/home/home_smarthome_footer_bg.jpg') center bottom no-repeat;
+}
+.skin-home #footer .container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.skin-home #footer a {
+  color: #a6b7d1;
+}
+.skin-home #footer a:hover {
+  color: #becee8;
+}
+.skin-home #footer .widgets_wrapper {
+  padding: 60px 0;
+}
+.skin-home #footer .widgets_wrapper h4 {
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 21px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.skin-home #footer .widgets_wrapper .textwidget ul {
+  line-height: 32px;
+  list-style: none;
+  padding-left: 0;
+}
+.skin-home #footer .widgets_wrapper .textwidget ul li i {
+  color: #0f84e7;
+}
+.skin-home #footer .footer_copy {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.skin-home #footer .footer_copy .container .row {
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+.skin-home #footer .footer_copy .container .row .copy_right {
+  color: #abd0ea;
+  margin: 0 0 10px 0;
 }

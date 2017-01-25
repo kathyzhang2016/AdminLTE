@@ -34,7 +34,6 @@
               max-width: 100%;
               max-height: 100%;
               height: auto;
-
             }
           }
 
@@ -96,7 +95,7 @@
       .slider_bg{
         width: 100%;
         height: 100%;
-        background: url('@{sectionBgPath}/home_smarthome_slider_bg.jpg') center center;
+        background: url('@{bgPath}/home_smarthome_slider_bg.jpg') center center;
         position: absolute;
       }
 
@@ -116,6 +115,10 @@
 
       .slider_slogo3{
         .slider_slogo_style(556px,250px);
+        img {
+          width: 6.12042px;
+          height: 386.461px;
+        }
       }
 
       .slider_slogo4{
@@ -125,15 +128,22 @@
 
       .slider_slogo5{
         .slider_slogo_style(1473px,321px);
+        img {
+          width: 6.12042px;
+          height: 288.534px;
+        }
       }
       
       .slider_slogo6{
         .slider_slogo_style(264px,1001px);
+        img {
+          width: 287.66px;
+          height: 6.12042px;
+        }
       }
 
-      .slider_slogo7{
-
-        .slider_slogo_style(263px,1026px);
+      .slider_slogo7 {
+        .slider_slogo_style(263px, 1026px);
       }
 
       .slider_slogo6{
@@ -142,11 +152,15 @@
 
       .slider_slogo8{
         .slider_slogo_style(1135px,746px);
+        img {
+          width: 6.12042px;
+          height: 287.66px;
+        }
+
       }
 
       .slider_slogo9{
         .slider_slogo_style(1157px,995px);
-
       }
     }
   }
@@ -164,13 +178,24 @@
       &:nth-child(2){//第二个section
         padding-top: 90px;
         padding-bottom: 0;
-        background: url('@{sectionBgPath}/home_smarthome_sectionbg2.png') center top no-repeat;
+        background: url('@{bgPath}/home_smarthome_sectionbg2.png') center top no-repeat;
+      }
+
+      &:nth-child(3){//第三个section
+        padding-top: 40px;
+        padding-bottom: 0;
+      }
+
+
+      &:nth-child(5){
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: @section-color-blue;
       }
 
       .section_wrapper {
-        width: 1200px;
-        margin: 0 auto;
-        position: relative;
+
+        &:extend(.customizeWidth);//固定宽度为1200px 且居中显示
         .wrap{
           width:100%;
           .row {
@@ -187,10 +212,11 @@
 
             .wrap_content h2{
               color: @white;
-
             }
 
-            .formatH2;
+            h2{
+              .formatH2;
+            }
 
             h3 {
               font-weight: 400;
@@ -261,13 +287,18 @@
                 }
               }
 
+              &.button_gray_bg{
+                background-color: @button-gray-bg;
+                color: @button-gray-font;
+              }
+
 
             }
 
             //第二个section 品牌介绍下面的数字部分
             .quick_fact {
               .number-wrapper {
-                color: #0f84e7;
+                color: @number-wrapper-color;
                 .number {
                   font-size: 90px;
                   line-height: 90px;
@@ -280,7 +311,7 @@
                 font-size: 18px;
                 letter-spacing: 2px;
                 line-height: 22px;
-                color: #0d122d;
+                color: @quickfact-h3-title;
               }
             }
 
@@ -295,11 +326,103 @@
 
             }
 
+            .faq .question {
+              margin-bottom: 5px;
+              overflow: hidden;
+              position: relative;
+              background: rgba(0,0,0,.02);
+              .title {
+                padding: 20px 40px 20px 80px;
+                font-size: 15px;
+                position: relative;
+                cursor: pointer;
+                .num {
+                  font-weight: 700;
+                  position: absolute;
+                  left: 27px;
+                  top: 20px;
+                }
+                .acc-icon-minus{
+                  font-size: 17px;
+                  line-height: 17px;
+                  display: block;
+                  position: absolute;
+                  right: 15px;
+                  top: 21px;
+                  width: 20px;
+                  height: 20px;
+                  text-align: center;
+                  color: rgba(0,0,0,.25);
+                }
+
+              }
+              .answer {
+                padding: 0 20px 20px 80px;
+                overflow: hidden;
+                display: none;
+              }
+
+            }
+
           }
         }
       }
     }
   }
 
+  //底部footer 的样式
+  #footer{
+
+    background-color: @footer-bg-dark;
+    background: url('@{bgPath}/home_smarthome_footer_bg.jpg') center bottom no-repeat;
+    .container {
+      .customizeWidth;
+    }
+
+    a {
+      color: @footer-a-color;
+      &:hover {
+        color: @footer-a-hover;
+      }
+    }
+    .widgets_wrapper{
+      padding: 60px 0;
+
+        h4 {
+          font-weight: 500;
+          letter-spacing: 3px;
+          font-size: 21px;
+          line-height: 25px;
+          color: @white;
+        }
+        .textwidget ul {
+          line-height: 32px;
+          list-style: none;
+          padding-left: 0;
+
+          li {
+            i {
+              color: @footer-icon-color;
+            }
+
+          }
+        }
+
+    }
+    .footer_copy {
+      border-top: 1px solid rgba(255, 255, 255, .1);
+      .container .row {
+        margin-bottom: 20px;
+        padding-top: 30px;
+        .copy_right {
+          color: @footer-copyright;
+          margin:0 0 10px 0;
+        }
+
+      }
+
+    }
+
+  }
 
 }
